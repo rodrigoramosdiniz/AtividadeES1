@@ -1,0 +1,120 @@
+<html>
+
+    <head>
+        <title>Menu Hamburquer</title>
+
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+     </head>
+
+<body>
+
+    <div class="jumbotron" style="background: #d3d3d3;">
+        <h1 class="text-center">Sistema</h1>
+    </div> 
+    
+
+<nav class="navbar navbar-light" style="background: #d3d3d3;">
+  
+    <div class="navbar-header">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapsed" data-target="#menusistema">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+         <a class="navbar-brand" href="#">Menu Sistema</a>   
+    </div>  
+
+        <div class="collapsed navbar-collapse " id="menusistema">
+        <ul class="nav navbar-nav">
+
+            <li><a href="#">Preço</a></li>
+            <li><a href="#">funcionarios</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="#">Usuario: Rodrigo-Sair</a></li>
+            
+        </ul>
+     </div>
+
+ </nav>  
+    
+<div class="container">
+    
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="page-header">Cadastrar Clientes</h3>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="nome" class="form-control" id="nome" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="RG">RG</label>
+                    <input type="text" class="form-control" id="RG">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="CPF">CPF</label>
+                    <input type="text" class="form-control" id="CPF">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" class="form-control" id="telefone">
+                </div>
+               
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </form>
+            
+        </div> 
+        
+        <div class="col-md-6">
+            <h3 class="page-header">Lista de Clientes</h3>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">RG</th>
+                    <th scope="col">CPF</th>
+                    <th scope="col">TELEFONE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Larissa</td>
+                    <td>67857</td>
+                    <td>758.666.678-45</td>
+                    <td>67 99875-6709</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Maria Silva</td>
+                    <td>345434</td>
+                    <td>999.676.678-76</td>
+                    <td>66 99678-9988</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Pedro carlos</td>
+                    <td>8876875</td>
+                    <td>888.777.456-10</td>
+                    <td>67 98434-5609</td>
+                  </tr>
+                </tbody>
+              </table>
+      </div>   
+</div>   
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</html>
